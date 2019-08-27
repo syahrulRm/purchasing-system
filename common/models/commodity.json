@@ -1,0 +1,27 @@
+{
+  "name": "commodity",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "namabarang": {
+      "type": "string"
+    },
+    "stock": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,26 @@
+{
+  "name": "transaksi",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "namaproduk": {
+      "type": "string"
+    },
+    "qty": {
+      "type": "string"
+    },
+    "pricesatuan": {
+      "type": "string"
+    },
+    "pricetotal": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

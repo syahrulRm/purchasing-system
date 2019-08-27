@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodb": {
+    "database": "dbTokoMalih",
+    "name": "mongodb",
+    "connector":"mongodb",
+    "extended_operators" : true,
+    "allowExtendedOperators": true
+  }
+}
